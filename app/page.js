@@ -22,63 +22,67 @@ export default function Home() {
           <Csr />
         </header>
 
-        <main className="container mx-auto p-5">
-          <section className="my-10 text-center">
-            <h2 className="text-2xl font-semibold">
+        <main className="w-full mx-auto">
+          <section className="bg-[url('/banners/widebanner.webp')] bg-cover bg-left h-[371px] flex flex-col mx-auto items-center justify-center px-5">
+            <h2 className=" text-2xl font-semibold">
               Why Join Our Affiliate Program?
             </h2>
             <p className="mt-4 text-lg">
               Become a partner in the exciting world of online sabong. Enjoy
               high commissions, timely payouts, and comprehensive marketing
-              support.
+              support.  
             </p>
-            <div className="flex flex-wrap justify-center mt-8">
-              <FeatureCard
-                title="High Commissions"
-                description="Earn top-tier commissions on every referral that converts."
-              />
-              <FeatureCard
-                title="Real-Time Tracking"
-                description="Monitor your referrals and earnings with our state-of-the-art dashboard."
-              />
-              <FeatureCard
-                title="Marketing Support"
-                description="Get access to high-quality marketing materials to boost your success."
-              />
-            </div>
           </section>
+          <article className="bg-[url('/banners/background03.webp')] bg-cover bg-center h-full">
+            <section className="pt-6 text-center">
+              <div className="flex flex-wrap justify-center mt-8">
+                <FeatureCard
+                  title="High Commissions"
+                  description="Earn top-tier commissions on every referral that converts."
+                />
+                <FeatureCard
+                  title="Real-Time Tracking"
+                  description="Monitor your referrals and earnings with our state-of-the-art dashboard."
+                />
+                <FeatureCard
+                  title="Marketing Support"
+                  description="Get access to high-quality marketing materials to boost your success."
+                />
+              </div>
+            </section>
 
-          <section className="my-10 text-center">
-            <h2 className="text-2xl font-semibold">How It Works</h2>
-            <p className="mt-4 text-lg">
-              Joining is easy! Follow these simple steps:
-            </p>
-            <div className="flex flex-wrap justify-center mt-8">
-              <FeatureCard
-                title="1. Sign Up"
-                description="Fill out the registration form to become an affiliate."
-              />
-              <FeatureCard
-                title="2. Promote"
-                description="Use your unique affiliate link to promote our platform."
-              />
-              <FeatureCard
-                title="3. Earn"
-                description="Receive commissions for every referral that converts."
-              />
-            </div>
-          </section>
+            <section className="my-10 text-center">
+              <h2 className="text-2xl font-semibold">How It Works</h2>
+              <p className="mt-4 text-lg">
+                Joining is easy! Follow these simple steps:
+              </p>
+              <div className="flex flex-wrap justify-center mt-8">
+                <FeatureCard
+                  title="1. Sign Up"
+                  description="Fill out the registration form to become an affiliate."
+                />
+                <FeatureCard
+                  title="2. Promote"
+                  description="Use your unique affiliate link to promote our platform."
+                />
+                <FeatureCard
+                  title="3. Earn"
+                  description="Receive commissions for every referral that converts."
+                />
+              </div>
+            </section>
 
-          <section className="my-10 text-center">
-            <h2 className="text-2xl font-semibold">Ready to Start Earning?</h2>
-            <p className="mt-4 text-lg">
-              Don't miss out on the opportunity to be part of something big.
-            </p>
-            <Csr />
-          </section>
+            <section className="pb-6 text-center">
+              <h2 className="text-2xl font-semibold">Ready to Start Earning?</h2>
+              <p className="mt-4 text-lg">
+                Don't miss out on the opportunity to be part of something big.
+              </p>
+              <Csr />
+            </section>
+          </article>
         </main>
 
-        <footer className="bg-gray-800 p-5 text-center">
+        <footer className="bg-gray-800 text-center">
           <p>
             &copy; 2024 Online Sabong Affiliate Program. All rights reserved.
           </p>

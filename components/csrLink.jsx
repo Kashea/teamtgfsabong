@@ -8,11 +8,11 @@ export default function MessengerLink() {
             <div className='flex flex-row gap-4'>
                 <Link href="https://m.me/albert.andulte.5" passHref target="_blank" rel="noopener noreferrer"
                     className='my-4'>
-                    <FaFacebookMessenger />
+                    <FaFacebookMessenger className='text-2xl' />
                 </Link>
                 <Link href="https://t.me/TEAMTGFCSR" passHref target="_blank" rel="noopener noreferrer"
                     className='my-4'>
-                    <FaTelegram />
+                    <FaTelegram className='text-2xl' />
                 </Link>
             </div>
             <p>Chat Us</p>
